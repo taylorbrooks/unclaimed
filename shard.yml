@@ -1,0 +1,16 @@
+name: unclaimed
+version: 0.1.0
+
+authors:
+  - Taylor Brooks <tbrooks@gmail.com>
+
+license: MIT
+
+dependencies:
+  active_record:
+    github: waterlink/active_record.cr
+    version: ~> 1.0
+
+  mysql_adapter:
+    github: waterlink/mysql_adapter.cr
+    version: ~> 0.5
